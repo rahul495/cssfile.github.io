@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>animation2</title>
+        <style>
+            .main{
+                width:200px;
+           height: 200px;
+           background:tomato;
+           text-align:center;
+           display:grid;
+           justify-content:center;
+           align-items:center;
+                      animation:sample 2s linear 1s infinite;
+               transition:all 2s linear;
+                }
+                .main:hover{
+                    width:250px;
+                    height:250px;
+                }
+                @keyframes sample{
+           0%{background:blue; border-radius:50%;}
+           25%{background:chartreuse; border-radius:50%;}
+           50%{background:green; border-radius:50%;}
+           75%{background:red; border-radius:50%;}
+           100%{background:tomato; border-radius:50%;}
+
+
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            welcome
+        </div>
+    </body>
+</html>

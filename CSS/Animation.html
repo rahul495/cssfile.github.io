@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>animation1</title>
+    </head>
+    <style type="text/css">
+    *{
+        margin:40px;
+        padding:50px;
+    }
+       .main{
+           width:200px;
+           height: 200px;
+           background:tomato;
+           text-align:center;
+           display:grid;
+           justify-content: center;
+           align-items:center;
+           animation: sample 2s linear 1s infinite; 
+       }
+       @keyframes sample{
+           0%{background:rgb(255, 0, 0); }
+           0%{background:rgb(21, 255, 0); border-radius:50%;}
+           0%{background:rgb(255, 0, 212); border-radius:50%;}
+           100%{background:rgb(25, 0, 255); border-radius:50%;}
+       
+       }
+    </style>
+    <body>
+       <div class="main">welcome</div> 
+    </body>
+</html>
